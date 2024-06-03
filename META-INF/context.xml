@@ -1,0 +1,36 @@
+
+<!-- *************************　↓　効果測定用　*************************** -->
+<!-- ↓の一行があるとQuestion4が404エラーになる -->
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+
+<!DOCTYPE configuration>
+<Context reloadable="true">
+	<Resource
+		name="jdbc/kouka"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="org.h2.Driver"
+		url="jdbc:h2:tcp://localhost/~/kouka"
+		username="sa"
+		password=""
+	/>
+</Context>
+
+
+
+<!-- *************************　↓　授業用　*************************** -->
+
+
+<!-- <Context reloadable="true">
+	<Resource
+        name="jdbc/book"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="org.h2.Driver"
+        url="jdbc:h2:tcp://localhost/~/book"
+        username="sa"
+        password=""
+    />
+</Context> -->
+
